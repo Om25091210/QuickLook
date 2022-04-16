@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp">
+
+
+    <ImageView
+        android:contentDescription="@string/image"
+        android:id="@+id/e_back"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/next_e"
+        app:layout_constraintStart_toStartOf="@+id/textView_e"
+        app:layout_constraintTop_toTopOf="@+id/next_e"
+        app:srcCompat="@drawable/ic_back"
+        app:tint="@color/color_5" />
+
+    <TextView
+        android:id="@+id/textView_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/employees_info"
+        android:textColor="@color/color_2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/strength"
+        android:textColor="@color/color_2"
+        app:layout_constraintStart_toStartOf="@+id/textView_e"
+        app:layout_constraintTop_toBottomOf="@+id/textView_e" />
+
+    <EditText
+        android:id="@+id/strength_edit"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_card"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/space"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/_16ssp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/strength"
+        app:layout_constraintTop_toBottomOf="@+id/strength" />
+
+    <TextView
+        android:id="@+id/Name_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/name"
+        android:textColor="@color/color_2"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/strength"
+        app:layout_constraintTop_toBottomOf="@+id/strength_edit" />
+
+    <EditText
+        android:id="@+id/name_edit_e"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_card"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/space"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textMultiLine"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/_16ssp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Name_e"
+        app:layout_constraintTop_toBottomOf="@+id/Name_e" />
+
+    <TextView
+        android:id="@+id/phone_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/phone_no"
+        android:textColor="@color/color_2"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/strength"
+        app:layout_constraintTop_toBottomOf="@+id/name_edit_e" />
+
+    <EditText
+        android:id="@+id/phone_edit_e"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_card"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/space"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/_16ssp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/phone_e"
+        app:layout_constraintTop_toBottomOf="@+id/phone_e"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/next_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/color_5"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/next"
+        android:textColor="@color/color_4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/phone_edit_e"
+        app:layout_constraintTop_toBottomOf="@+id/phone_edit_e" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

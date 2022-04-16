@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/bg_button.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/bg_card.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/ic_back.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/ic_cross.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/ic_q_a.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/indicator_default.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/indicator_selected.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/indicator_selector.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/drawable/splash.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/activity_choose_identity.xml" value="0.14" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/activity_onboarding.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/activity_splash.xml" value="0.75" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/choose_identity.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/layout_employee_info.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/layout_location.xml" value="0.67" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/layout_personal_info.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/layout_screen.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/your_business.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/layout/your_business_2.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/quiclook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp">
+
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/image"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/y_b_2"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/y_b_2"
+        app:srcCompat="@drawable/ic_back"
+        app:tint="@color/color_5"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text=""
+        android:textColor="@color/color_2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/address"
+        android:textColor="@color/color_2"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/address_edit"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_card"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/space"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textMultiLine"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/address"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/other_location_if_any"
+        android:textColor="@color/color_2"
+        app:layout_constraintStart_toStartOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/address_edit" />
+
+    <EditText
+        android:id="@+id/location_edit"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_card"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/space"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textMultiLine"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/location"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/y_b_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/color_5"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/next"
+        android:textColor="@color/color_4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/location_edit"
+        app:layout_constraintTop_toBottomOf="@+id/location_edit" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="0dp"
+        android:fadeScrollbars="false"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/y_b_2"
+        app:layout_constraintEnd_toStartOf="@+id/add"
+        app:layout_constraintStart_toStartOf="@+id/location"
+        app:layout_constraintTop_toTopOf="@+id/add" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/color_5"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/add"
+        android:textColor="@color/color_4"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/location_edit"
+        app:layout_constraintTop_toBottomOf="@+id/location_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

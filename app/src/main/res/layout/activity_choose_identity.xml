@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    tools:context=".choose_identity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <include android:id="@+id/choice"
+            layout="@layout/choose_identity"/>
+
+       <include android:id="@+id/yb"
+           android:visibility="gone"
+           layout="@layout/your_business"/>
+
+        <include android:id="@+id/yb1"
+            android:visibility="gone"
+            layout="@layout/your_business_2"/>
+
+        <include android:id="@+id/lp"
+            android:visibility="gone"
+            layout="@layout/layout_personal_info"/>
+
+        <include android:id="@+id/epl"
+            android:visibility="gone"
+            layout="@layout/layout_employee_info"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

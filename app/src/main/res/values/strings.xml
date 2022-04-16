@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">quiclook</string>
+    <string name="quiclook">QuicLook</string>
+    <string name="mosioco">Mosioco</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="proceed">Proceed</string>
+    <string name="image">image</string>
+    <string name="what_best_describes_you">What best describes\nyou?</string>
+    <string name="tap_to_select">Tap to select</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="your_business">Your Business</string>
+    <string name="category">Category</string>
+    <string name="space" />
+    <string name="name">Name</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="address">Address</string>
+    <string name="other_location_if_any">Other Location (if any)</string>
+    <string name="add">Add</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="email">Email</string>
+    <string name="strength">Strength</string>
+    <string name="employees_info">Employees Info</string>
+    <string name="powered_by">Powered by</string>
+</resources>
